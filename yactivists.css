@@ -1,0 +1,60 @@
+#square1 {
+	height: 300px;
+	width: 300px;
+	background-color: #cc66ff;
+}
+#square2 {
+	height: 300px;
+	width: 300px;
+	background-color: #bb33ff;
+}
+#square3 {
+	height: 300px;
+	width: 300px;
+	background-color: #aa00ff;
+}
+#square4 {
+	height: 300px;
+	width: 300px;
+	background-color: #8800cc;
+}
+#square5 {
+	height: 300px;
+	width: 300px;
+	background-color: #660099;
+}
+#square6 {
+	height: 300px;
+	width: 300px;
+	background-color:  #3333ff;
+}
+#square7 {
+	height: 300px;
+	width: 300px;
+	background-color: #0000ff;
+}
+#square8 {
+	height: 300px;
+	width: 300px;
+	background-color:  #0000cc;
+}
+#square9 {
+	height: 300px;
+	width: 300px;
+	background-color: #000099;
+}
+#square10 {
+	height: 300px;
+	width: 300px;
+	background-color: #00004d;
+}
+.image {
+	height: 420px;
+
+}
+.text {
+	text-align: center;
+	background-color: #86592d;
+	height: 150px;
+	padding-top: 90px;
+}
