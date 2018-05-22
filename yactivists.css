@@ -1,3 +1,4 @@
+
 .text {
 	text-align: center;
 	height: 150px;
@@ -15,9 +16,10 @@
 }
 .title {
 	text-align: center;
-	font-size: 35px;
+	font-size: 45px;
 	font-weight: bold;
 	font-family: "Merriweater-Italic.ttc";
+
 }
 .closing {
 	background-color: pink;
@@ -29,4 +31,9 @@
 }
 div {
 	text-align: center;
+}
+
+
+.images {
+	width: 100%;
 }
