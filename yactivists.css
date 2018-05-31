@@ -42,12 +42,3 @@ div {
 #image1 {
 	background-image
 }
-.squares {
-	border-radius: 25px;
-    border: 5px solid #73AD21;
-    padding: 70px; 
-    width: 20px;
-    height: 50px;
-    margin-bottom: 30px;
-    font-size: 35px;
-}
