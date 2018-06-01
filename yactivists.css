@@ -42,3 +42,9 @@ div {
 #image1 {
 	background-image
 }
+.card {
+    transition: 0.3s;
+    border-color: black;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
