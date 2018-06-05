@@ -229,22 +229,27 @@ function getGridTemplate(person){
 function getProfileTemplate(person){
   var template = `
     <div class="row" id="${person.id}" onclick="getProfileTemplateClick('${person.id}')" id="${person.id}>
-      <div class="col-6 offset-3">
-        <h3>
-          ${person.name}, ${person.age}
-        </h3>
+    <div class="col-12 col-sm-6"> </div>
+      <div class="col-12 col-sm-6" >
         <h2>
-          ${person.location}
+          ${person.name}, ${person.age}
         </h2>
+        <br>
+        <img onclick="processClick('${person.id}')" src="${person.imageURL}" alt="${person.name}" class="img-fluid">
+        <br>
+        <h3>
+          ${person.location}
+        </h3>
         <a href="https://twitter.com/${person.twitter}">
           ${person.twitter}
         </a>
-          <img onclick="processClick('${person.id}')" src="${person.imageURL}" alt="${person.name}" class="img-fluid">
+        </div>
+        <div class="col-12 col-sm-6">
           <p>
             ${person.text}
           </p>
           <span class="hand" onclick="goBack()"><h4>BACK</h4></span>
-        </div>
+      </div>
     </div>
 
   `

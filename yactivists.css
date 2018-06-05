@@ -6,14 +6,15 @@
 
 }
 .logo {
-	height: 35px;
-	width: 75px;
+	height: 45px;
+	width: 95px;
 	margin-top: 5px;
+
 }
 #sharing {
-	width: 85px;
-	height: 35px;
-	margin-top: 5px;
+	width: 55px;
+	height: 55px;
+	margin-top: 0px;
 }
 .title {
 	text-align: center;
@@ -33,6 +34,8 @@
 }
 div {
 	text-align: center;
+	margin-top: 2px;
+	border: 1px solid black;
 }
 
 
