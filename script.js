@@ -6,6 +6,9 @@ var youth_data = {
    location: "Washington, D.C",
    imageURL: "image1.png",
    twitter: "",
+   question:"What is their favorite food?",
+   option1:"food",
+   option2:"crayons",
    text: "<p>As a young Latina student, I’m fighting for justice in my society, like equality and safety for all individuals — no matter their immigration status, sex or race. I stand and I speak up for others and I attend marches and protests for rights and participate in any kind of protest that will benefit us, young and old, because it will make a change but we have to work together for change. I do this because I strongly believe that the more people who seek change, the quicker the change will come.</p><p>I’m only one, but when it comes to numbers, we can all work to make a difference. I matter, and my voice matters. MLK voiced his concerns, and we should join him in this effort.</p><p>It’s pivotal for all living in the U.S. to stand for social justice issues because without it there wouldn’t be any order. We need a change for future generations to have good morals, positive mindset and to live at peace.</p>"
   },
   Hamdia_Ahmed: {
@@ -15,6 +18,7 @@ var youth_data = {
    location: "Portalnd, Maine",
    imageURL: "image2.png",
    twitter: "",
+   question:"What is their favorite food?",
    text: "<p>I am fighting for a world where everyone is treated with respect and dignity. We must never watch people get oppressed on our own watch. We cannot be silent in the face of injustice because it is our duty to stand up for our brothers and sisters. Dr. Martin Luther King, Jr. inspired us to not stay silent, and we must continue his legacy. I have been, in particular, fighting for Muslims, immigrants and black people in this country because I fit into these groups. We live in a country where people are told to go back to their country, the spread of hatred towards Muslims, and black people getting murdered by the police for no reason. We have a leader who promoted hatred and division. What makes people a true patriot is when they fight for the rights of their fellow Americans.</p>"
   },
 
@@ -25,6 +29,7 @@ var youth_data = {
    location: "Princeton, NJ, Yale University",
    imageURL: "image3.png",
    twitter: "",
+   question:"What is their favorite food",
    text: "<p>As an American-Muslim teenager, I am fighting for (in whatever capacity I can be helpful/useful) a tomorrow where every child can be loved, accepted, and confident/safe in their own skin.More than that, I’m fighting for a world where every child has the space to dream unapologetically — and has the agency/ability to achieve their dreams, whatever they might be. I fundamentally believe that this world is better when every voice is empowered, when we are not limited by societal expectations, and when we disrupt the status quo to shift paradigms forward.I am inspired by those before me — many of whom are people of color, women, queer, and representative of the diversity that exists in our world. I find hope in the strides that leaders like Dr. Martin Luther King Jr. were able to make — by speaking truth to power, by working tirelessly for better, and by resisting systems of inequality. I hope to be a part of that same fight, as I hope to follow the lead of those who have been doing this work far longer/better than me.As I look around this world, I see institutionalized racism, patriarchal power, imperialist foreign policy, ignorant leaders, children being left behind, and broken justice systems. I see a world that needs radical change. I am fighting for that world because I believe in the power of humanity to create a more just world, because I believe it’s my responsibility to love this world enough to want to make it better.I fight for better, because InshAllah (God willing), we will be better.</p>"
   },
 
@@ -36,6 +41,7 @@ var youth_data = {
    location: "Washington, D.C",
    imageURL: "image4.png",
    twitter: "",
+   question:"What is their favorite food",
    text: "<p>Martin Luther King was a great leader who fought for civil and human rights to protect and defend the dignity and value of his people, and all people for that matter. I believe that his spirit is still alive today because he is still a role model which has inspired and motivated other leaders across the world, including myself.As a Latina activist, I have been participating in different advocacy roles to combat discrimination and racism, while also celebrating and uplifting diversity.I, alongside my friends, founded and developed the Latino Youth Leadership Council (LYLC), a group bringing together students from various high schools in D.C., with the mission to organize and mobilize to assess, develop, and implement opportunities and alternatives for recent immigrant Latino students in D.C. public schools and other educational systems in the District of Columbia.The Latin American Youth Center supports us by providing community organizing support and mobilizing knowledge and skills, and together we are organizing powerful community conferences, youth summits, and we have even created a powerful book called “Voices Without Borders: Our Stories, Our Truth,” hoping to counter the deceiving national anti-immigrant rhetoric that taints and dehumanizes immigrant youth.What I have learned from Martin Luther King is that when we are quiet about the things that matter, darkness gets stronger, injustice rules, and people suffer. This is why I believe that there is power in fighting for what we believe in, especially us, the youth. If we fight, something will change. We must be committed to work hard to make changes and not give up until we get what we need and deserve.I fight for justice, for equity, for a better future, for an education, and to make youth voices be heard because youth voices matter. Youth voices are powerful. Youth have more knowledge than people think, and they need to speak their truth.Too many undocumented youth are scared to speak because they don’t know English and because the real threat of police forces trying to separate them from their families, but we must not stay quiet, just like Martin Luther King did not stay quiet in the face of oppression.I fight and represent undocumented youth because I believe one person can let them know that they are not alone, and — more important — that together we are going to win this fight against injustice.</p>"
   },
 
@@ -202,15 +208,15 @@ var youth_data = {
 }
 
 
-function processClick(id){
+function processClick(id) {
   document.getElementById('grid').hidden = true
   document.getElementById('profile').hidden = false
 
-  document.getElementById("profile").innerHTML = getProfileTemplate( youth_data[id] )
- console.log(youth_data[id])
+  document.getElementById("profile").innerHTML = getProfileTemplate(youth_data[id])
+  console.log(youth_data[id])
 }
 
-function getGridTemplate(person){
+function getGridTemplate(person) {
 
 
   var template = `
@@ -226,41 +232,41 @@ function getGridTemplate(person){
   return template
 }
 
-function getProfileTemplate(person){
+function getProfileTemplate(person) {
   var template = `
-    <div class="row" id="${person.id}" onclick="getProfileTemplateClick('${person.id}')" id="${person.id}>
-    <div class="col-12 col-sm-6"> </div>
-      <div class="col-12 col-sm-6" >
-        <h2>
-          ${person.name}, ${person.age}
-        </h2>
-        <br>
-        <img onclick="processClick('${person.id}')" src="${person.imageURL}" alt="${person.name}" class="img-fluid">
-        <br>
-        <h3>
-          ${person.location}
-        </h3>
-        <a href="https://twitter.com/${person.twitter}">
-          ${person.twitter}
-        </a>
-        </div>
-        <div class="col-12 col-sm-6">
-          <p>
+  <div class="row" id="${person.id}" onclick="getProfileTemplateClick('${person.id}')" id="${person.id}">
+    <div class="col-12 col-sm-6">
+
+
+        <img class="large" onclick="processClick('${person.id}')" src="${person.imageURL}" alt="${person.name}"  >
+
+      </div>
+      <div class="col-12 col-sm-6">
+      <h2>
+        ${person.name}
+      </h2>
+      <h4>
+         ${person.age}, ${person.location}
+      </h4>
+          <p id="paragraph">
             ${person.text}
           </p>
+          <div>
+            ${person.question}
+          </div>
           <span class="hand" onclick="goBack()"><h4>BACK</h4></span>
       </div>
+
     </div>
 
   `
   return template
 }
-function goBack(){
-    document.getElementById('grid').hidden = false
+
+function goBack() {
+  document.getElementById('grid').hidden = false
   document.getElementById('profile').hidden = true
 }
-
-
 
 //
 document.getElementById("person-1").innerHTML = getGridTemplate(youth_data.Celeste_Aguilar)

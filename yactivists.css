@@ -1,4 +1,7 @@
-
+/*
+div{
+	border: 1px solid black;
+} */
 .text {
 	text-align: center;
 	height: 150px;
@@ -6,9 +9,10 @@
 
 }
 .logo {
-	height: 45px;
-	width: 95px;
 	margin-top: 5px;
+	height: 100%;
+	width: 100%;
+
 
 }
 #sharing {
@@ -26,6 +30,7 @@
 }
 .closing {
 	background-color: pink;
+	margin-top: 10%;
 }
 .first {
 	font-size: 25px;
@@ -35,15 +40,9 @@
 div {
 	text-align: center;
 	margin-top: 2px;
-	border: 1px solid black;
 }
-
-
 .images {
 	width: 100%;
-}
-#image1 {
-	background-image
 }
 .card {
     transition: 0.3s;
@@ -51,3 +50,9 @@ div {
     margin-right: 2%;
     margin-bottom: 5%;
 }
+.large {
+	height:500px;
+}
+/* #paragraph {
+	margin-top: 15%;
+} */
