@@ -1,5 +1,6 @@
 body {
 	padding-left: 2%;
+		font-family: "Merriweater-Italic.ttc";
 }
 .text {
 	text-align: center;
@@ -23,7 +24,6 @@ body {
 	text-align: center;
 	font-size: 45px;
 	font-weight: bold;
-	font-family: "Merriweater-Italic.ttc";
 	letter-spacing: 5px;
 	padding-top: 2px;
 
@@ -31,6 +31,7 @@ body {
 div {
 	text-align: center;
 	margin-top: 2px;
+	font-size: 18px;
 }
 .card {
     transition: 0.3s;
@@ -39,13 +40,13 @@ div {
     margin-bottom: 5%;
 }
 .large {
-	height: 100%;
+	width: 100%;
 }
 #paragraph {
 	text-align: left;
 }
 .button {
-	background-color: inherit;
+	background-color: #0086b3;
 	padding: 14px 28px;
 	font-size: 16px;
 	cursor: pointer;
@@ -55,6 +56,13 @@ div {
 .hand {
 	cursor: pointer;
 }
-.button:active {
-	background-color: #4d94ff;
+.button:hover {
+	background-color: #b3b3cc;
+}
+.back {
+	margin-top: 3%;
+	background-color: #0086b3;
+}
+.link {
+	width: 10%;
 }

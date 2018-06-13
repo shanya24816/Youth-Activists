@@ -9,8 +9,8 @@ var youth_data = {
    age: 16,
    location: "Washington, D.C",
    imageURL: "image1.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://twitter.com/youthradio?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -19,16 +19,18 @@ var youth_data = {
      label: "no",
      count: 0
    },
-   text: "<p>As a young Latina student, I’m fighting for justice in my society, like equality and safety for all individuals — no matter their immigration status, sex or race. I stand and I speak up for others and I attend marches and protests for rights and participate in any kind of protest that will benefit us, young and old, because it will make a change but we have to work together for change. I do this because I strongly believe that the more people who seek change, the quicker the change will come.</p><p>I’m only one, but when it comes to numbers, we can all work to make a difference. I matter, and my voice matters. MLK voiced his concerns, and we should join him in this effort.</p><p>It’s pivotal for all living in the U.S. to stand for social justice issues because without it there wouldn’t be any order. We need a change for future generations to have good morals, positive mindset and to live at peace.</p>"
+   text: "<p>As a young Latina student, I’m fighting for justice in my society, like equality and safety for all individuals — no matter their immigration status, sex or race. I stand and I speak up for others and I attend marches and protests for rights and participate in any kind of protest that will benefit us, young and old, because it will make a change but we have to work together for change. I do this because I strongly believe that the more people who seek change, the quicker the change will come. I’m only one, but when it comes to numbers, we can all work to make a difference. I matter, and my voice matters. MLK voiced his concerns, and we should join him in this effort. It’s pivotal for all living in the U.S. to stand for social justice issues because without it there wouldn’t be any order. We need a change for future generations to have good morals, positive mindset and to live at peace.</p>"
   },
+
+
   Hamdia_Ahmed: {
    id: "Hamdia_Ahmed",
    name: "Hamdia Ahmed",
    age: 20,
    location: "Portalnd, Maine",
    imageURL: "image2.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://twitter.com/hamdia_ahmed",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -46,8 +48,8 @@ var youth_data = {
    age: 19,
    location: "Princeton, NJ, Yale University",
    imageURL: "image3.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://twitter.com/ziadtheactivist",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -66,8 +68,8 @@ var youth_data = {
    age: 16,
    location: "Washington, D.C",
    imageURL: "image4.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://twitter.com/youthradio?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -85,8 +87,8 @@ var youth_data = {
    age: 18,
    location: "Los Angeles, California",
    imageURL: "image5.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://twitter.com/youthradio?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -104,8 +106,8 @@ var youth_data = {
    age: 20,
    location: "Bronx, N.Y., Penn State ",
    imageURL: "image6.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://twitter.com/seuntheactivist",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -124,8 +126,8 @@ var youth_data = {
    age: 10,
    location: "Flint, MI",
    imageURL: "image7.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://twitter.com/littlemissflint",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -143,8 +145,8 @@ var youth_data = {
    age: 17,
    location: "Washington, D.C",
    imageURL: "image8.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://twitter.com/graceadvocates",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -162,8 +164,8 @@ var youth_data = {
    age: 18,
    location: "Shorewood, WI",
    imageURL: "image9.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://twitter.com/katie_eder",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -180,8 +182,8 @@ var youth_data = {
    age: 22,
    location: "Long Island, NY",
    imageURL: "image10.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://twitter.com/nikhilgoya_l",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -199,8 +201,8 @@ var youth_data = {
    age: 16,
    location: "Birmingham, AL",
    imageURL: "image11.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://twitter.com/youthradio?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -218,8 +220,8 @@ var youth_data = {
    age: 20,
    location: "Columbia, SC",
    imageURL: "image12.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://twitter.com/merritjones",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -237,8 +239,8 @@ var youth_data = {
    age: 28,
    location: "Columbus, IN",
    imageURL: "image13.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://twitter.com/youthradio?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -256,8 +258,8 @@ var youth_data = {
    age: 21,
    location: "St. Louis, Missouri",
    imageURL: "image14.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://twitter.com/CliftonKinnie",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -275,8 +277,8 @@ var youth_data = {
    age: 28,
    location: "Washington, D.C",
    imageURL: "image15.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://twitter.com/TiffanyDLoftin",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -295,8 +297,8 @@ var youth_data = {
    age: 21,
    location: "Hillside, N.J. ",
    imageURL: "image16.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://twitter.com/misssaramora",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -314,8 +316,8 @@ var youth_data = {
    age: 25,
    location: "Indianapolis, IN",
    imageURL: "image17.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://twitter.com/youthradio?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -333,8 +335,8 @@ var youth_data = {
    age: 14,
    location: "Nacogdoches, TX",
    imageURL: "image18.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://www.instagram.com/everydayblackgirl/",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -352,8 +354,8 @@ var youth_data = {
    age: 16,
    location: "Birmingham, AL",
    imageURL: "image19.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://twitter.com/youthradio?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -371,8 +373,8 @@ var youth_data = {
    age: "",
    location: "None",
    imageURL: "image20.png",
-   twitter: "",
-   question:"Do you think what this person is fighting for is good?",
+   twitter: "https://twitter.com/MillionHoodies",
+   question:"Do you think what this person is fighting for is needed in your community?",
    option1: {
      label: "yes",
      count: 0
@@ -423,7 +425,7 @@ function getGridTemplate(person) {
     <div class="card-body bg-info text-white">
       <p class="card-text">${person.name}, ${person.age}</p>
       <p class="card-text">${person.location}</p>
-      <p class="card-text">${person.twitter}</p>
+      <a href="${person.twitter}" alt="${person.name}"><img src="link.png" class="img-fluid link"></a>
     </div>
   </div>
   `
@@ -433,17 +435,17 @@ function getGridTemplate(person) {
 function getProfileTemplate(person) {
   var template = `
   <div class="row" id="${person.id}" onclick="getProfileTemplateClick('${person.id}')" id="${person.id}">
-    <div class="col-12 col-sm-12 col-md-6">
+    <div class="col-12 col-sm-12 col-md-5">
         <img class="large" onclick="processClick('${person.id}')" src="${person.imageURL}" alt="${person.name}"  >
     </div>
-    <div class="col-12 col-sm-12 col-md-6">
+    <div class="col-12 col-sm-12 col-md-7">
       <h2>
         ${person.name}
       </h2>
-      <div id="all">
           <h4>
             ${person.age}, ${person.location}
           </h4>
+      <div id="all" class="col-md-11 col-12">
           <p id="paragraph">
             ${person.text}
           </p>
@@ -455,10 +457,10 @@ function getProfileTemplate(person) {
             <button class="btn success button" onClick="buttonAnswer1('${person.id}')" id="button1">${person.option1.label}</button>  <button class="btn success button"  onClick="buttonAnswer2('${person.id}')" id="button2">${person.option2.label}</button>
           </div>
         </div>
-          <span class="hand" onclick="goBack()"><h4>BACK</h4></span>
+          <button class="btn success back hand" onclick="goBack()"><h5>BACK</h5></button>
           <div class="row" id="chartContainer">
           </div>
-    </div>
+      </div>
 
   </div>
 
