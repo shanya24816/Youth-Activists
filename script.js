@@ -6,6 +6,7 @@ var youth_data = {
   Celeste_Aguilar: {
    id: "Celeste_Aguilar",
    name: "Celeste Aguilar",
+   class: "celest-color",
    age: 16,
    location: "Washington, D.C",
    imageURL: "image1.png",
@@ -27,6 +28,7 @@ var youth_data = {
    id: "Hamdia_Ahmed",
    name: "Hamdia Ahmed",
    age: 20,
+   class:"hamdia-color",
    location: "Portalnd, Maine",
    imageURL: "image2.png",
    twitter: "https://twitter.com/hamdia_ahmed",
@@ -46,6 +48,7 @@ var youth_data = {
    id: "Ziad_Ahmed",
    name: "Ziad Ahmed",
    age: 19,
+   class: "ziad-color",
    location: "Princeton, NJ, Yale University",
    imageURL: "image3.png",
    twitter: "https://twitter.com/ziadtheactivist",
@@ -66,6 +69,7 @@ var youth_data = {
    id: "Santos_Amaya_Guevera",
    name: "Santos Amaya Guevara",
    age: 16,
+   class: "santos-color",
    location: "Washington, D.C",
    imageURL: "image4.png",
    twitter: "https://twitter.com/youthradio?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
@@ -85,6 +89,7 @@ var youth_data = {
    id: "Anya_Andrews",
    name: "Anya Andrews",
    age: 18,
+   class: "anya-color",
    location: "Los Angeles, California",
    imageURL: "image5.png",
    twitter: "https://twitter.com/youthradio?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
@@ -104,6 +109,7 @@ var youth_data = {
    id: "Seun_Babalola",
    name: "Seun Babalola",
    age: 20,
+   class: "seun-color",
    location: "Bronx, N.Y., Penn State ",
    imageURL: "image6.png",
    twitter: "https://twitter.com/seuntheactivist",
@@ -124,6 +130,7 @@ var youth_data = {
    id: "Mari_Copeny",
    name: "Mari Copeny",
    age: 10,
+   class: "mari-color",
    location: "Flint, MI",
    imageURL: "image7.png",
    twitter: "https://twitter.com/littlemissflint",
@@ -143,6 +150,7 @@ var youth_data = {
    id: "Grace_Dolan_Sandrino",
    name: "Grace Dolan-Sandros",
    age: 17,
+   class: "grace-color",
    location: "Washington, D.C",
    imageURL: "image8.png",
    twitter: "https://twitter.com/graceadvocates",
@@ -162,6 +170,7 @@ var youth_data = {
    id: "Katie_Eder",
    name: "Katie Eder",
    age: 18,
+   class: "katie-color",
    location: "Shorewood, WI",
    imageURL: "image9.png",
    twitter: "https://twitter.com/katie_eder",
@@ -180,6 +189,7 @@ var youth_data = {
    id: "Nikhil_Goyal",
    name: "Nikhil Goyal",
    age: 22,
+   class: "nikhil-color",
    location: "Long Island, NY",
    imageURL: "image10.png",
    twitter: "https://twitter.com/nikhilgoya_l",
@@ -199,6 +209,7 @@ var youth_data = {
    id: "Shawn_Goyal",
    name: "Shawn Goyal",
    age: 16,
+   class: "shawn-color",
    location: "Birmingham, AL",
    imageURL: "image11.png",
    twitter: "https://twitter.com/youthradio?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
@@ -218,6 +229,7 @@ var youth_data = {
    id: "Merrit_Jones",
    name: "Merrit Jones",
    age: 20,
+   class: "merrit-color",
    location: "Columbia, SC",
    imageURL: "image12.png",
    twitter: "https://twitter.com/merritjones",
@@ -237,6 +249,7 @@ var youth_data = {
    id: "Brittany_King",
    name: "Brittany King",
    age: 28,
+   class: "brittany-color",
    location: "Columbus, IN",
    imageURL: "image13.png",
    twitter: "https://twitter.com/youthradio?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
@@ -256,6 +269,7 @@ var youth_data = {
    id: "Clifton_Kinnie",
    name: "Clifton Kinnie",
    age: 21,
+   class: "clifton-color",
    location: "St. Louis, Missouri",
    imageURL: "image14.png",
    twitter: "https://twitter.com/CliftonKinnie",
@@ -275,6 +289,7 @@ var youth_data = {
    id: "Tiffany_Dena_Loftin",
    name: "Tiffany Dena Loftin",
    age: 28,
+   class: "tiffany-color",
    location: "Washington, D.C",
    imageURL: "image15.png",
    twitter: "https://twitter.com/TiffanyDLoftin",
@@ -295,6 +310,7 @@ var youth_data = {
    id: "Sara_Mora",
    name: "Sara Mora",
    age: 21,
+   class: "sara-color",
    location: "Hillside, N.J. ",
    imageURL: "image16.png",
    twitter: "https://twitter.com/misssaramora",
@@ -314,6 +330,7 @@ var youth_data = {
    id: "RaeVen_Ridgell",
    name: "RaeVen Ridgell",
    age: 25,
+   class: "raeVen-color",
    location: "Indianapolis, IN",
    imageURL: "image17.png",
    twitter: "https://twitter.com/youthradio?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
@@ -333,6 +350,7 @@ var youth_data = {
    id: "Courtney_Roberts",
    name: "Courtney Roberts",
    age: 14,
+   class: "courtney-color",
    location: "Nacogdoches, TX",
    imageURL: "image18.png",
    twitter: "https://www.instagram.com/everydayblackgirl/",
@@ -352,6 +370,7 @@ var youth_data = {
    id: "Sojourner_Rouco_Crenshaw",
    name: "Sojourner Rouco-Crenshaw",
    age: 16,
+   class: "sojourner-color",
    location: "Birmingham, AL",
    imageURL: "image19.png",
    twitter: "https://twitter.com/youthradio?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
@@ -371,6 +390,7 @@ var youth_data = {
    id: "Giavonni_Williams",
    name: "Giavonni Williams",
    age: "",
+   class: "giavonni-color",
    location: "None",
    imageURL: "image20.png",
    twitter: "https://twitter.com/MillionHoodies",
@@ -393,6 +413,7 @@ var youth_data = {
 function processClick(id) {
   document.getElementById('grid').hidden = true
   document.getElementById('profile').hidden = false
+  document.getElementById('header').hidden = true
 
   document.getElementById("profile").innerHTML = getProfileTemplate(youth_data[id])
 
@@ -422,7 +443,7 @@ function getGridTemplate(person) {
   var template = `
   <div class="card hand" style="width: 18rem;" onclick="processClick('${person.id}')" id="${person.id}">
     <img class="card-img-top" src="${person.imageURL}" alt="${person.name}">
-    <div class="card-body bg-info text-white">
+    <div class="card-body ${person.class}">
       <p class="card-text">${person.name}, ${person.age}</p>
       <p class="card-text">${person.location}</p>
       <a href="${person.twitter}" alt="${person.name}"><img src="link.png" class="img-fluid link"></a>
@@ -434,9 +455,25 @@ function getGridTemplate(person) {
 
 function getProfileTemplate(person) {
   var template = `
+  <div class="row">
+    <div class="col-12 col-md-1">
+      <a href="https://youthradio.org/"><img src="YR_logo2.jpg" class="img-fluid logo"></a>
+    </div>
+    <div class="col-12 col-md-10 dosome">
+      DO SOMETHING
+    </div>
+    <div class="col-12 col-md-1">
+      <a href="${person.twitter}" alt="${person.name}"><img src="sharingicons.png" class="img-fluid sharing"></a>
+    </div>
+  </div>
+
+
+
+
+
   <div class="row" id="${person.id}" onclick="getProfileTemplateClick('${person.id}')" id="${person.id}">
     <div class="col-12 col-sm-12 col-md-5">
-        <img class="large" onclick="processClick('${person.id}')" src="${person.imageURL}" alt="${person.name}"  >
+        <img class="large" onclick="processClick('${person.id}')" src="${person.imageURL}" alt="${person.name}">
     </div>
     <div class="col-12 col-sm-12 col-md-7">
       <h2>
