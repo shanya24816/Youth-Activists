@@ -43,6 +43,7 @@ div {
 }
 .large {
 	width: 100%;
+	margin-top: 20px;
 }
 #paragraph {
 	text-align: left;
@@ -62,7 +63,7 @@ div {
 	background-color: #b3b3cc;
 }
 .back {
-	margin-top: 3%;
+	margin-top: 1%;
 	background-color: #0086b3;
 }
 .link {
@@ -72,68 +73,82 @@ div {
 	font-size: 40px;
 }
 .celest-color {
-	background-color:  #77C9D4;
+	background-color:  #e79899;
+	color: white;
 }
 .hamdia-color {
-	background-color:  #015249;
+	background-color:  #6fbac3;
 	color: white;
 }
 .ziad-color {
-	background-color:  #A5A5AF;
+	background-color:  #6E7376;
+	color: white;
 }
 .santos-color {
-	background-color:  #57BC90;
-	color: black;
+	background-color:  #4ABDAC;
+	color: white;
 }
 .anya-color {
-	background-color:  #77C9D4;
+	background-color:  #6fbac3;
+	color: white;
 }
 .seun-color {
-	background-color:  #015249;
+	background-color:  #6E7376;
 	color: white;
 }
 .mari-color {
-	background-color:  #57BC90;
+	background-color:  #4ABDAC;
+	color: white;
 }
 .grace-color {
-	background-color:  #A5A5AF;
+	background-color:  #e79899;
+	color: white;
 }
 .katie-color {
-	background-color:  #015249;
+	background-color:  #4ABDAC;
 	color: white;
 }
 .nikhil-color {
-	background-color:  #77C9D4;
+	background-color:  #e79899;
+	color: white;
 }
 .shawn-color {
-	background-color:  #A5A5AF;
+	background-color:  #6E7376;
+	color: white;
 }
 .merrit-color {
-	background-color:  #57BC90;
+	background-color:  #6fbac3;
+	color: white;
 }
 .brittany-color {
-	background-color:  #015249;
+	background-color:  #4ABDAC;
 	color: white;
 }
 .clifton-color {
-	background-color:  #77C9D4;
+	background-color:  #6E7376;
+	color: white;
 }
 .tiffany-color {
-	background-color:  #57BC90;
+	background-color:  #e79899;
+	color: white;
 }
 .sara-color {
-	background-color:  #A5A5AF;
+	background-color:  #6fbac3;
+	color: white;
 }
 .raeVen-color {
-	background-color:  #77C9D4;
+	background-color:  #4ABDAC;
+	color: white;
 }
 .courtney-color {
-	background-color:  #015249;
+	background-color:  #e28385;
 	color: white;
 }
 .sojourner-color {
-	background-color:  #A5A5AF;
+	background-color:  #6fbac3;
+	color: white;
 }
 .giavonni-color {
-	background-color:  #57BC90;
+	background-color:  #6E7376;
+	color: white;
 }

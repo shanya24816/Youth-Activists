@@ -29,7 +29,7 @@ var youth_data = {
    name: "Hamdia Ahmed",
    age: 20,
    class:"hamdia-color",
-   location: "Portalnd, Maine",
+   location: "Portland, Maine",
    imageURL: "image2.png",
    twitter: "https://twitter.com/hamdia_ahmed",
    question:"Do you think what this person is fighting for is needed in your community?",
@@ -414,7 +414,6 @@ function processClick(id) {
   document.getElementById('grid').hidden = true
   document.getElementById('profile').hidden = false
   document.getElementById('header').hidden = true
-
   document.getElementById("profile").innerHTML = getProfileTemplate(youth_data[id])
 
   chart = new CanvasJS.Chart("chartContainer", {
@@ -455,59 +454,65 @@ function getGridTemplate(person) {
 
 function getProfileTemplate(person) {
   var template = `
-  <div class="row">
+  <div class="row ">
     <div class="col-12 col-md-1">
       <a href="https://youthradio.org/"><img src="YR_logo2.jpg" class="img-fluid logo"></a>
     </div>
     <div class="col-12 col-md-10 dosome">
-      DO SOMETHING
+      YOUTH ACTIVISTS
     </div>
     <div class="col-12 col-md-1">
-      <a href="${person.twitter}" alt="${person.name}"><img src="sharingicons.png" class="img-fluid sharing"></a>
     </div>
   </div>
 
-
-
-
-
-  <div class="row" id="${person.id}" onclick="getProfileTemplateClick('${person.id}')" id="${person.id}">
+  <div class="row ${person.class}" id="${person.id}" onclick="getProfileTemplateClick('${person.id}')" id="${person.id}">
     <div class="col-12 col-sm-12 col-md-5">
         <img class="large" onclick="processClick('${person.id}')" src="${person.imageURL}" alt="${person.name}">
+        <br>
+        <button class="btn success back hand" onclick="goBack()"><h5>BACK</h5></button>
+
     </div>
-    <div class="col-12 col-sm-12 col-md-7">
+    <div class="col-12 col-sm-12 col-md-7 ">
       <h2>
-        ${person.name}
+        ${person.name}  <a href="${person.twitter}" alt="${person.name}"><img src="tw.png" class="img-fluid sharing mb-1"></a>
+
       </h2>
           <h4>
-            ${person.age}, ${person.location}
+            ${person.age} | ${person.location}
           </h4>
       <div id="all" class="col-md-11 col-12">
-          <p id="paragraph">
+      <div id="description">
+        <p id=" ">
             ${person.text}
           </p>
-        <div id="before">
-          <div>
-            ${person.question}
           </div>
           <div>
+            <strong> ${person.question} </strong>
+          </div>
+          <div>
+
+        <div id="before">
+
             <button class="btn success button" onClick="buttonAnswer1('${person.id}')" id="button1">${person.option1.label}</button>  <button class="btn success button"  onClick="buttonAnswer2('${person.id}')" id="button2">${person.option2.label}</button>
           </div>
         </div>
-          <button class="btn success back hand" onclick="goBack()"><h5>BACK</h5></button>
+
           <div class="row" id="chartContainer">
           </div>
+          </div>
       </div>
-
   </div>
 
   `
   return template
+
 }
 
 function buttonAnswer1(personId) {
   document.getElementById('chartContainer').style.display = "inline";
   document.getElementById('before').style.display = "none";
+  document.getElementById('description').style.display = "none";
+
   youth_data[personId].option1.count = youth_data[personId].option1.count + 1
   yes = youth_data[personId].option1.count;
   updateChart()
@@ -515,6 +520,8 @@ function buttonAnswer1(personId) {
 function buttonAnswer2(personId) {
   document.getElementById('chartContainer').style.display = "inline";
   document.getElementById('before').style.display = "none";
+  document.getElementById('description').style.display = "none";
+
   youth_data[personId].option2.count = youth_data[personId].option2.count + 1
   no = youth_data[personId].option2.count;
   updateChart()
@@ -539,9 +546,6 @@ function goBack() {
   documnet.getElementById('chartContainer').hidden = true;
 }
 
-
-
-//
 document.getElementById("person-1").innerHTML = getGridTemplate(youth_data.Celeste_Aguilar)
 
 document.getElementById("person-2").innerHTML = getGridTemplate(youth_data.Hamdia_Ahmed)
